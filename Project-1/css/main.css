@@ -82,7 +82,7 @@ h4 {
 }
 
 /*Media queries for responsive design*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 510px) {
     h1 {
         font-size: 28px;
     }
