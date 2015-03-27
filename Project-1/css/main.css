@@ -8,7 +8,7 @@
 }
 
 *{
-	font-family: "Lora", serif;
+    font: lighter 16px "Lora", serif;
     color: #555;
 }
 
@@ -73,28 +73,32 @@ h4 {
 }
 
 .description {
-    font: lighter 14px "Lora", serif;
     margin: 20px 8px 3px;
-}
-
-.logo{
-    display: block;
-    margin-left: 0;
-    margin-right: auto;
 }
 
 .title{
     text-align: right;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 500px) {
     .logo{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        width: 72.8px;
+        height: 58.1px;
     }
 
-    .title{
-        text-align: center;
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .title-bar {
+        margin: 20px -15px 10px;
     }
 }
