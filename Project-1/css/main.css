@@ -81,11 +81,6 @@ h4 {
 }
 
 @media screen and (max-width: 500px) {
-    .logo{
-        width: 72.8px;
-        height: 58.1px;
-    }
-
     h1 {
         font-size: 30px;
     }
