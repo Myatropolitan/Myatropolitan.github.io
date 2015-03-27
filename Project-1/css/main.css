@@ -84,15 +84,15 @@ h4 {
 /*Media queries for responsive design*/
 @media screen and (max-width: 510px) {
     h1 {
-        font-size: 28px;
+        font-size: 38px;
     }
 
     h2 {
-        font-size: 25px;
+        font-size: 29px;
     }
 
     h4 {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .title-bar {
@@ -102,6 +102,20 @@ h4 {
     .logo {
         max-width: 80%;
         max-height: 80%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 13px;
     }
 }
 
