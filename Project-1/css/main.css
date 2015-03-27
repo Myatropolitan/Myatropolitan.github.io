@@ -9,11 +9,11 @@
 
 *{
 	font-family: "Lora", serif;
-        color:#555;
+    color: #555;
 }
 
 img {
-    margin: 0 auto;
+    max-width: 100%;
 }
 
 a {
@@ -67,7 +67,34 @@ h4 {
     margin: 20px 0;
 }
 
+.project-images{
+    min-width: 48px;
+    min-height: 48px;
+}
+
 .description {
     font: lighter 14px "Lora", serif;
     margin: 20px 8px 3px;
+}
+
+.logo{
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.title{
+    text-align: right;
+}
+
+@media screen and (max-width: 992px) {
+    .logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title{
+        text-align: center;
+    }
 }
